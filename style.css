@@ -60,9 +60,9 @@ video {
     border: none;
     cursor: pointer;
     padding: 0;
-    width: calc(15% - 20px); /* Adjust width for four banners per row */
+    width: calc(15%); /* Adjust width for four banners per row */
     height: 0;
-    padding-bottom: calc(15% - 20px); /* Set height to create a square */
+    padding-bottom: calc(15%); /* Set height to create a square */
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
