@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to right, #00d2ff, #3a7bd5);
+    cursor: url('favicon.ico'), auto;
 }
 
 header {
@@ -71,6 +72,7 @@ video {
 
 .movie-banner:hover {
     transform: scale(1.05);
+    cursor: url('favicon.ico'), auto;
 }
 
 .movie-banner:hover .title-overlay {
