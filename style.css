@@ -72,7 +72,6 @@ video {
 
 .movie-banner:hover {
     transform: scale(1.05);
-    cursor: url('favicon.ico'), auto;
 }
 
 .movie-banner:hover .title-overlay {
