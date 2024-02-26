@@ -4,6 +4,12 @@ function handleBannerClick(videoUrl) {
     window.location.href = videoUrl;
 }
 
+var videoElement = document.getElementById('stream');
+
+  videoElement.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+  });
+
 // Function to dynamically create movie banners
 function createMovieBanners() {
     const movieContainer = document.getElementById('movie-container');
